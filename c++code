@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n[5],i;
+	cout<<"entered elements: ";
+	for(i=1;i<=5;i++)
+	cin>>n[i];
+	cout<<"you entered: ";
+	for(i=1;i<=5;i++)
+	{
+	    cout<<*(n+i)<<"\n";
+    }
+	return 0;
+}
